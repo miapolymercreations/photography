@@ -6,14 +6,17 @@ google_analytics: ""
 
 # UI configs
 title: "Polymer Creations by MIA"
-subtitle: "Miniature polymer creations made to order"
+subtitle: "Miniature polymer creations"
 author: "MIA"
 header:
  title: "Polymer Creations"
  subtitle: "by MIA"
 footer:
  name: "Hey there, I am MIA"
- bio: "I love making miniature polymer creations, contact me with your commission."
+ bio: "Hello and welcome!
+I was first introduced to polymer clay in 2021. It all started with making DIY gifts for family during the holidays. I slowly fell into the rabbit hole of YouTube and after many videos and multiple runs to Michael’s I found myself lost in the world of making small clay trinkets.
+
+I am still learning and expanding my skills in polymer clay."
  github: ""
 web_design: ""
 social_urls:
