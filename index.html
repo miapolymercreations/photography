@@ -105,7 +105,8 @@ layout: default
             <div>
                 <section>
                     <h2>Get in touch</h2>
-                    <form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
+                    <form class="gform pure-form pure-form-stacked" method="POST"
+                        data-email="miapolymercreations@gmail.com"
                         action="https://script.google.com/macros/s/AKfycbzbt-imAJnRkjF7NimBHe67JVI7tmi92wRiGvvwTNG_EbkJ--lm-oRFlM-M0lyYXqOa/exec">
                         <div class="field half first">
                             <input type="text" name="name" id="name" placeholder="Name" />
@@ -115,6 +116,12 @@ layout: default
                         </div>
                         <div class="field">
                             <textarea name="message" id="message" rows="4" placeholder="Message"></textarea>
+                        </div>
+                        <div class="pure-group honeypot-field">
+                            <label for="honeypot">To help avoid spam, utilize a Honeypot technique with a hidden text
+                                field; must be empty to submit the form! Otherwise, we assume the user is a spam
+                                bot.</label>
+                            <input id="honeypot" type="text" name="honeypot" value="" />
                         </div>
                         <ul class="actions">
                             <li><input type="submit" value="Send" class="special" /></li>
