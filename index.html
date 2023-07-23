@@ -108,12 +108,15 @@ layout: default
                     <form class="gform pure-form pure-form-stacked" method="POST"
                         data-email="miapolymercreations@gmail.com"
                         action="https://script.google.com/macros/s/AKfycbzbt-imAJnRkjF7NimBHe67JVI7tmi92wRiGvvwTNG_EbkJ--lm-oRFlM-M0lyYXqOa/exec">
-                        <!--input id must be honeypot or else it wont work-->
-                        <label class="sr-only">Keep this field blank</label>
-                        <input id="honeypot" type="text" name="honeypot" value="" />
-                        <!--the rest of your form-->
 
                         <div class="form-elements">
+                            <fieldset class="pure-group honeypot-field">
+                                <!--input id must be honeypot or else it wont work-->
+                                <label class="sr-only">Keep this field blank</label>
+                                <input id="honeypot" type="text" name="honeypot" value="" />
+                                <!--the rest of your form-->
+                            </fieldset>
+
                             <fieldset class="field-group">
                                 <div class="field">
                                     <label class="label" for="name">Name</label>
